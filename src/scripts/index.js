@@ -31,7 +31,7 @@ function createPokemonCard(pokemon) {
   pokemon.types.forEach((typeInfo) => {
     const typeName = typeInfo.type.name;
     const typeIcon = document.createElement("img");
-    typeIcon.src = `src/favicons/${typeName}.png`; // Caminho para o ícone do tipo
+    typeIcon.src = `../favicons/${typeName}.png`; // Caminho para o ícone do tipo
     typeIcon.alt = typeName;
     typeIcon.classList.add("type-icon");
     typeContainer.appendChild(typeIcon);

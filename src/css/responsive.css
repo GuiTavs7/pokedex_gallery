@@ -1,0 +1,95 @@
+/* SMARTPHONES */
+
+@media(max-width: 500px){
+
+    .principal{
+        gap: 20px;
+    }
+
+    .generation-buttons{
+        gap: 10px;
+        width: 50px;
+    }
+
+    .generation-buttons button {
+        padding: 2px;
+        font-size: 0.8rem;
+    }
+
+    .pokeball_image{
+        width: 40px;
+    }
+
+    h1{
+        font-size: 32px;
+        width: 260px;
+        height: 100px;
+        text-shadow: -5px -5px 0 #000, 5px -5px 0 #000, -5px 5px 0 #000, 5px 5px 0 #000;
+    }
+
+    h2{
+        font-size: 28px;
+    }
+
+    .pokedex {
+        grid-template-columns: repeat(2, 45%);
+    }
+
+    .pokemon-name {
+        font-size: 1rem;
+    }
+}
+
+/* TABLET 1 */
+
+@media (min-width: 500px) and (max-width: 800px) {
+
+    .principal{
+        gap: 10px;
+    }
+
+    .generation-buttons{
+        gap: 20px;
+        width: 50px;
+    }
+
+    .generation-buttons button {
+        padding: 2px;
+        font-size: 0.8rem;
+    }
+
+    .pokeball_image{
+        width: 70px;
+    }
+
+    h1{
+        font-size: 46px;
+        width: 400px;
+        height: 160px;
+        text-shadow: -5px -5px 0 #000, 5px -5px 0 #000, -5px 5px 0 #000, 5px 5px 0 #000;
+    }
+
+    h2{
+        font-size: 36px;
+    }
+
+    .pokedex {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .pokemon-name {
+        font-size: 1.2rem;
+    }
+}
+
+/* TABLET 2 */
+
+@media (min-width: 801px) and (max-width: 1200px) {
+    .pokeball_image{
+        width: 90px;
+    }
+
+    .pokedex {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

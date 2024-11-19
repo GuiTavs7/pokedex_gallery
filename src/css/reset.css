@@ -1,0 +1,24 @@
+/* Importando as fontes baixadas */
+
+@font-face {
+    font-family: 'Pokemon Hollow';
+    src: url('../fonts/pokemon/Pokemon Hollow.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Pokemon Solid';
+    src: url('../fonts/pokemon/Pokemon Solid.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Resetando alguns estilos para todas tags HTML */
+
+*{
+    font-family: "Pokemon Hollow", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

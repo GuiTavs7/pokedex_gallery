@@ -3,7 +3,7 @@
 @media(max-width: 500px){
 
     .principal{
-        gap: 100px;
+        gap: 120px;
     }
 
     .generation-buttons{
@@ -23,7 +23,7 @@
     h1{
         font-size: 32px;
         width: 260px;
-        height: 60px;
+        height: 80px;
         text-shadow: -5px -5px 0 #000, 5px -5px 0 #000, -5px 5px 0 #000, 5px 5px 0 #000;
     }
 

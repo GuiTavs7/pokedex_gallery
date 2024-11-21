@@ -17,6 +17,7 @@ body {
     text-align: center;
     width: 700px;
     height: 250px;
+    margin-top: 50px;
     border-radius: 60%;
     background-color: #fff;
     box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;

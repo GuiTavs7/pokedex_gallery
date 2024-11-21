@@ -1,10 +1,8 @@
-# OctoFind
+# Poké Gallery
 
 ## Descrição
 
-Inspirado no mascote do GitHub, Octocat, com foco em encontrar usuários! 😺
-
-O usuário pode buscar os principais dados e repositórios de qualquer usuário existente do GitHub! 🔎
+Galeria com todos os pokémons da primeira à quinta geração! 
 
 ## Conceitos trabalhados e fixados no projeto:
 

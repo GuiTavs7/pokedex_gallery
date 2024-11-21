@@ -3,7 +3,7 @@
 @media(max-width: 500px){
 
     .principal{
-        gap: 100px;
+        gap: 140px;
     }
 
 
@@ -26,6 +26,7 @@
         width: 260px;
         height: 100px;
         text-shadow: -5px -5px 0 #000, 5px -5px 0 #000, -5px 5px 0 #000, 5px 5px 0 #000;
+        margin-top: 0;
     }
 
     h2{

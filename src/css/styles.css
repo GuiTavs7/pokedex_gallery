@@ -18,16 +18,12 @@ body {
     width: 700px;
     height: 250px;
     margin-top: 50px;
-    border-radius: 60%;
-    background-color: #fff;
-    box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
   }
 
   h1:hover{
     transition: ease-in-out 1s;
     transform: scale(1.05);
     cursor: pointer;
-    background-color: rgb(238, 238, 103);
     color: #fff;
   }
 

@@ -23,19 +23,19 @@ Galeria com todos os pokémons da primeira à quinta geração!
 ## Design Desktop
 
 <div align="center">
-    <img src="./src/images/desktop_begin.png" alt="design do projeto no desktop">
-    <img src="./src/images/desktop_hover.png" alt="design do projeto no desktop">
-    <img src="./src/images/desktop_pokedex.png" alt="design do projeto no desktop">
-    <img src="./src/images/design/desktop_hover_pokédex.png.png" alt="design do projeto no desktop">
+    <img src="./src/images/design/desktop_begin.png" alt="design do projeto no desktop">
+    <img src="./src/images/design/desktop_hover.png" alt="design do projeto no desktop">
+    <img src="./src/images/design/desktop_pokedex.png" alt="design do projeto no desktop">
+    <img src="./src/images/design/desktop_hover_pokédex.png." alt="design do projeto no desktop">
 </div>
 
 ## Design Mobile
 
 <div align="center">
-    <img src="./src/images/mobile_begin.png" alt="design do projeto no mobile">
-    <img src="./src/images/mobile_hover.png" alt="design do projeto no mobile">
-    <img src="./src/images/mobile_pokedex.png" alt="design do projeto no mobile">
-    <img src="./src/images/mobile_hover_pokedex.png" alt="design do projeto no mobile">
+    <img src="./src/images/design/mobile_begin.png" alt="design do projeto no mobile">
+    <img src="./src/images/design/mobile_hover.png" alt="design do projeto no mobile">
+    <img src="./src/images/design/mobile_pokedex.png" alt="design do projeto no mobile">
+    <img src="./src/images/design/mobile_hover_pokedex.png" alt="design do projeto no mobile">
 </div>
 
 ## Como Utilizar

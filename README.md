@@ -26,7 +26,7 @@ Galeria com todos os pokémons da primeira à quinta geração!
     <img src="./src/images/design/desktop_begin.png" alt="design do projeto no desktop">
     <img src="./src/images/design/desktop_hover.png" alt="design do projeto no desktop">
     <img src="./src/images/design/desktop_pokedex.png" alt="design do projeto no desktop">
-    <img src="./src/images/design/desktop_hover_pokédex.png." alt="design do projeto no desktop">
+    <img src="./src/images/design/desktop_hover_pokedex.png." alt="design do projeto no desktop">
 </div>
 
 ## Design Mobile

@@ -26,15 +26,24 @@ Galeria com todos os pokémons da primeira à quinta geração!
     <img src="./src/images/design/desktop_begin.png" alt="design do projeto no desktop">
     <img src="./src/images/design/desktop_hover.png" alt="design do projeto no desktop">
     <img src="./src/images/design/desktop_pokedex.png" alt="design do projeto no desktop">
-    <img src="./src/images/design/desktop_hover_pokedex.png." alt="design do projeto no desktop">
+    <img src="./src/images/design/desktop_hover_pokedex.png" alt="design do projeto no desktop">
 </div>
 
 ## Design Mobile
 
 <div align="center">
     <img src="./src/images/design/mobile_begin.png" alt="design do projeto no mobile">
+</div>
+
+<div align="center">
     <img src="./src/images/design/mobile_hover.png" alt="design do projeto no mobile">
+</div>
+
+<div align="center">
     <img src="./src/images/design/mobile_pokedex.png" alt="design do projeto no mobile">
+</div>
+
+<div align="center">
     <img src="./src/images/design/mobile_hover_pokedex.png" alt="design do projeto no mobile">
 </div>
 

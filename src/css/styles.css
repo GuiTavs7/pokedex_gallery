@@ -10,49 +10,43 @@ body {
 }
 
   h1{
-    font-family: "Pokemon Solid", "Arial";
-    color: rgb(238, 238, 103);
-    text-shadow: -8px -8px 0 #000, 8px -8px 0 #000, -8px 8px 0 #000, 8px 8px 0 #000;
-    font-size: 80px;
-    text-align: center;
-    width: 700px;
-    height: 250px;
-    margin-top: 50px;
-  }
-
-  h1:hover{
-    transition: ease-in-out 1s;
-    transform: scale(1.05);
-    cursor: pointer;
-    color: #fff;
-  }
-
-  h2{
     font-family: "Pokemon Hollow";
-    color: #000;
+    height: 100px;
+    color: blue;
     font-size: 60px;
     text-align: center;
     font-weight: bold;
     text-shadow: 
-        1px 1px 0px #fff, 
-        2px 2px 0px #fff,
-        3px 3px 0px #fff,
-        4px 4px 0px #fff,
-        5px 5px 0px #fff;
+        1px 1px 0px yellow, 
+        2px 2px 0px yellow, 
+        3px 3px 0px yellow, 
+        4px 4px 0px yellow, 
+        5px 5px 0px yellow;
   }
 
-  h2:hover{
-    color: yellowgreen;
+  h1:hover{
     transition: 0.5s ease;
     cursor: pointer;
     transform: scale(1.05);
   }
 
-  .principal{
+  main{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    height: 100%;
+    gap: 80px;
+  }
+
+  .logo{
+    width: 550px;
+  }
+
+  .logo:hover{
+    transition: 1s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
   }
 
   /* Estilos dos botões pokébolas */
@@ -72,7 +66,7 @@ body {
     font-weight: 600;
     box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
     border: none;
-    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    background-color: silver;
   }
 
   .generation-buttons button:hover {

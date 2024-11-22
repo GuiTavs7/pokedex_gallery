@@ -1,4 +1,4 @@
-const title = document.querySelector(".title");
+const title = document.querySelector(".logo");
 
 function setupPokemonButtons(fetchPokemonByRange) {
     document.getElementById("btn-gen1").addEventListener("click", () => {

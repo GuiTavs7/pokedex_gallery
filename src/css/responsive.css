@@ -1,11 +1,20 @@
 /* SMARTPHONES */
 
-@media(max-width: 500px){
+@media(max-width: 450px){
 
-    .principal{
-        gap: 160px;
+    h1{
+        font-size: 30px;
+        width: 260px;
+        height: 120px;
     }
 
+    main{
+        gap: 120px;
+    }
+
+    .logo{
+        width: 250px;
+    }
 
     .generation-buttons{
         gap: 10px;
@@ -21,19 +30,6 @@
         width: 40px;
     }
 
-    h1{
-        font-size: 30px;
-        width: 260px;
-        height: 120px;
-        text-shadow: -5px -5px 0 #000, 5px -5px 0 #000, -5px 5px 0 #000, 5px 5px 0 #000;
-        margin-top: 0;
-        padding-top: 10px;
-    }
-
-    h2{
-        font-size: 28px;
-    }
-
     .pokedex {
         grid-template-columns: repeat(2, 45%);
     }
@@ -45,10 +41,19 @@
 
 /* TABLET 1 */
 
-@media (min-width: 500px) and (max-width: 800px) {
+@media (min-width: 450px) and (max-width: 750px) {
 
-    .principal{
-        gap: 80px;
+    h1{
+        font-size: 34px;
+        width: 320px;
+    }
+
+    main{
+        gap: 120px;
+    }
+
+    .logo{
+        width: 400px;
     }
 
     .generation-buttons{
@@ -65,17 +70,6 @@
         width: 70px;
     }
 
-    h1{
-        font-size: 46px;
-        width: 400px;
-        height: 160px;
-        text-shadow: -5px -5px 0 #000, 5px -5px 0 #000, -5px 5px 0 #000, 5px 5px 0 #000;
-    }
-
-    h2{
-        font-size: 36px;
-    }
-
     .pokedex {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -87,12 +81,22 @@
 
 /* TABLET 2 */
 
-@media (min-width: 801px) and (max-width: 1200px) {
+@media (min-width: 750px) and (max-width: 1200px) {
+
+    main{
+        gap: 100px;
+    }
+
+    .logo{
+        width: 500px;
+    }
+
     .pokeball_image{
         width: 90px;
     }
 
     .pokedex {
         grid-template-columns: repeat(4, 1fr);
+
     }
 }

@@ -4,6 +4,10 @@
 
 Galeria com todos os pokémons da primeira à quinta geração! 
 
+<div align="center">
+    <img src="./src/images/gifs/gif_1.gif" alt = "gif pokemon">
+</div>
+
 ## Conceitos trabalhados e fixados no projeto:
 
 * Estrutura de pastas padrão no projeto; ✅
@@ -20,18 +24,18 @@ Galeria com todos os pokémons da primeira à quinta geração!
 
 <div align="center">
     <img src="./src/images/desktop_begin.png" alt="design do projeto no desktop">
-    <img src="./src/images/desktop_search.png" alt="design do projeto no desktop">
-    <img src="./src/images/desktop_repos.png" alt="design do projeto no desktop">
-    <img src="./src/images/desktop_events.png" alt="design do projeto no desktop">
+    <img src="./src/images/desktop_hover.png" alt="design do projeto no desktop">
+    <img src="./src/images/desktop_pokedex.png" alt="design do projeto no desktop">
+    <img src="./src/images/design/desktop_hover_pokédex.png.png" alt="design do projeto no desktop">
 </div>
 
 ## Design Mobile
 
 <div align="center">
     <img src="./src/images/mobile_begin.png" alt="design do projeto no mobile">
-    <img src="./src/images/mobile_search.png" alt="design do projeto no mobile">
-    <img src="./src/images/mobile_repos.png" alt="design do projeto no mobile">
-    <img src="./src/images/mobile_events.png" alt="design do projeto no mobile">
+    <img src="./src/images/mobile_hover.png" alt="design do projeto no mobile">
+    <img src="./src/images/mobile_pokedex.png" alt="design do projeto no mobile">
+    <img src="./src/images/mobile_hover_pokedex.png" alt="design do projeto no mobile">
 </div>
 
 ## Como Utilizar
@@ -39,6 +43,15 @@ Galeria com todos os pokémons da primeira à quinta geração!
 1 - Clone o projeto
 
 ```
+
 git clone <url>
+
+```
+
+2 - Acesse a pasta do projeto
+
+```
+
+cd pokedex_gallery
 
 ```

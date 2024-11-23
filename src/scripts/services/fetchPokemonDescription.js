@@ -11,15 +11,20 @@ async function fetchPokemonDescription(pokemonId) {
       );
   
       // Armazena a descrição ou uma mensagem padrão caso não haja descrição disponível
-      let description = descriptionEntry ? descriptionEntry.flavor_text : "No description available.";
+      let textInfoPokemon = descriptionEntry ? descriptionEntry.flavor_text : "No description available.";
+      
+      // Substituindo caracteres especiais indesejáveis do texto da descrição
+
+      textInfoPokemon = textInfoPokemon.replace(/[^\x20-\u21D5\u2194\u2195\u2196\u2197↕]/g, ' ');
   
-      description = description.replace(/[^\x20-\u21D5\u2194\u2195\u2196\u2197↕]/g, ' ');
-  
-      return description;
-    } catch (error) {
+      return textInfoPokemon;
+    } 
+    
+    catch (error) {
       console.error("Error fetching Pokémon description:", error);
       return "No description available due to an error.";
     }
+
 }
 
 export {fetchPokemonDescription};

@@ -74,13 +74,14 @@ async function showPokemonDetails(pokemon){
   const pokemonImageExtended = document.querySelector(".image-extended");
   const pokemonNameExtended = document.querySelector(".pokemon-name-extended");
   const pokemonInfo = document.querySelector(".pokemon-info");
-  const description = await fetchPokemonDescription(pokemon.id);
+
+  const pokemonDescription = await fetchPokemonDescription(pokemon.id);
 
   // Atualizando as informações com os dados da Poké API
 
   pokemonImageExtended.src = pokemon.sprites.other['official-artwork'].front_default || pokemon.sprites.front_default;
   pokemonNameExtended.textContent = pokemon.name;
-  pokemonInfo.textContent = description;
+  pokemonInfo.textContent = pokemonDescription;
 
   windowExtended.style.display = "flex";
 }

@@ -22,3 +22,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Personalização global da barra de rolagem */
+
+/* Estiliza a barra de rolagem */
+*::-webkit-scrollbar {
+    width: 10px; /* Largura da barra */
+    height: 10px; /* Altura da barra (para rolagem horizontal) */
+}
+
+/* Estiliza a parte "móvel" da barra */
+*::-webkit-scrollbar-thumb {
+    background: #016288; /* Cor da parte "móvel" da barra */
+    border-radius: 10px; /* Bordas arredondadas */
+    border: 2px solid #fff; /* Espaçamento interno */
+}
+
+/* Estiliza o trilho da barra */
+*::-webkit-scrollbar-track {
+    background: #f0f0f0; /* Cor do trilho */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+

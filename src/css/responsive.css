@@ -41,15 +41,12 @@
     /* Estilos do card ampliado */
 
   .pokemon-details{
-    width: 80%;
+    max-width: 300px;
+    height: auto;
   }
 
   .pokemon-details h2{
     font-size: 2rem;
-  }
-
-  .pokemon-details p{
-    font-size: 1rem;
   }
 }
 
@@ -91,6 +88,10 @@
     .pokemon-name {
         font-size: 1.2rem;
     }
+
+    .pokemon-details{
+        height: auto;
+    }
 }
 
 /* TABLET 2 */
@@ -111,6 +112,9 @@
 
     .pokedex {
         grid-template-columns: repeat(4, 1fr);
+    }
 
+    .pokemon-details{
+        height: auto;
     }
 }

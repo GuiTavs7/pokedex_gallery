@@ -2,9 +2,9 @@ import { typeColors } from './objects/type_colors.js';
 
 import { fetchPokemonByRange, pokedexContainer } from './services/fetchPokemonByRange.js';
 
-import { fetchPokemonDescription } from './services/fetchPokemonDescription.js';
+import { setupPokemonButtons, title } from "./setupPokemonButtons.js"
 
-import {setupPokemonButtons, title} from "./setupPokemonButtons.js"
+import { showPokemonDetails, windowExtended } from "./showPokemonDetails.js"
 
 // Exibindo o logo da tela inicial //
 
@@ -13,18 +13,6 @@ title.style.display = "block";
 // Chamando o gatilho principal do JS //
 
 setupPokemonButtons(fetchPokemonByRange);
-
-// Chamando a função de fechar o card ampliado //
-
-const windowExtended = document.querySelector(".pokemon-extended");
-
-function closePokemonDetails(){
-  windowExtended.style.display = "none";
-}
-
-windowExtended.onclick = function(){
-  closePokemonDetails();
-}
 
 // Criando a função de criar o card //
 
@@ -45,6 +33,10 @@ function createPokemonCard(pokemon) {
   pokemonName.classList.add("pokemon-name");
   pokemonName.textContent = pokemon.name;
 
+  const pokemonID = document.createElement("p");
+  pokemonID.classList.add("pokemon-id");
+  pokemonID.textContent = `#${String(pokemon.id).padStart(3, "0")}`; // Exibe algo como "#001"
+
   // Container para os ícones dos tipos
   const typeContainer = document.createElement("div");
   typeContainer.classList.add("type-container");
@@ -61,29 +53,9 @@ function createPokemonCard(pokemon) {
 
   pokemonCard.appendChild(pokemonImage);
   pokemonCard.appendChild(pokemonName);
+  pokemonCard.appendChild(pokemonID);
   pokemonCard.appendChild(typeContainer);
   pokedexContainer.appendChild(pokemonCard);
-}
-
-// Criando a função de criar o card ampliado //
-
-async function showPokemonDetails(pokemon){
-
-  // Selecionando os elementos HTML do card
-
-  const pokemonImageExtended = document.querySelector(".image-extended");
-  const pokemonNameExtended = document.querySelector(".pokemon-name-extended");
-  const pokemonInfo = document.querySelector(".pokemon-info");
-
-  const pokemonDescription = await fetchPokemonDescription(pokemon.id);
-
-  // Atualizando as informações com os dados da Poké API
-
-  pokemonImageExtended.src = pokemon.sprites.other['official-artwork'].front_default || pokemon.sprites.front_default;
-  pokemonNameExtended.textContent = pokemon.name;
-  pokemonInfo.textContent = pokemonDescription;
-
-  windowExtended.style.display = "flex";
 }
 
 export {createPokemonCard};

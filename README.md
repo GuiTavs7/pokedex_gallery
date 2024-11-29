@@ -29,22 +29,28 @@ Galeria com todos os pokémons da primeira à quinta geração!
     <img src="./src/images/design/desktop_hover_pokedex.png" alt="design do projeto no desktop">
 </div>
 
+### Card Pokémon Ampliado Desktop
+
+<div align="center">
+    <img src="./src/images/design/desktop_card_extended.png" alt="design do projeto no mobile">
+</div>
+
 ## Design Mobile
 
 <div align="center">
     <img src="./src/images/design/mobile_begin.png" alt="design do projeto no mobile">
-</div>
-
-<div align="center">
     <img src="./src/images/design/mobile_hover.png" alt="design do projeto no mobile">
 </div>
 
 <div align="center">
     <img src="./src/images/design/mobile_pokedex.png" alt="design do projeto no mobile">
+    <img src="./src/images/design/mobile_hover_pokedex.png" alt="design do projeto no mobile">
 </div>
 
+### Card Pokémon Ampliado Desktop
+
 <div align="center">
-    <img src="./src/images/design/mobile_hover_pokedex.png" alt="design do projeto no mobile">
+    <img src="./src/images/design/mobile_card_extended.png" alt="design do projeto no mobile">
 </div>
 
 ## Como Utilizar

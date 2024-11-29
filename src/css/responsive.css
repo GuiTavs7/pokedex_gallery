@@ -34,6 +34,10 @@
         grid-template-columns: repeat(2, 45%);
     }
 
+    .pokemon{
+        padding: 12px;
+    }
+
     .pokemon-name {
         font-size: 1rem;
     }
@@ -46,7 +50,8 @@
   }
 
   .pokemon-details .pokemon-info{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    max-height: 80px;
   }
 
   .pokemon-details h2{

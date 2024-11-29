@@ -42,6 +42,10 @@
         font-size: 1rem;
     }
 
+    .pokemon-id{
+        margin-top: 2px;
+    }
+
     /* Estilos do card ampliado */
 
   .pokemon-details{
@@ -51,7 +55,6 @@
 
   .pokemon-details .pokemon-info{
     font-size: 1.1rem;
-    max-height: 80px;
   }
 
   .pokemon-details h2{

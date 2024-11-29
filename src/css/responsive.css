@@ -45,6 +45,10 @@
     height: auto;
   }
 
+  .pokemon-details .pokemon-info{
+    font-size: 1.2rem;
+  }
+
   .pokemon-details h2{
     font-size: 2rem;
   }

@@ -264,4 +264,31 @@ body {
   background: #f0f0f0; /* Cor do trilho */
   border-radius: 5px; /* Bordas arredondadas no trilho */
 }
-  
+
+/* Estilos dos botões de navegação */
+
+.btn-next,
+.btn-prev {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-next img,
+.btn-prev img {
+  width: 75px;
+  height: 75px;
+}
+
+.btn-next:hover img,
+.btn-prev:hover img {
+  transform: scale(1.2);
+  transition: 0.4s ease-in-out;
+}
+
+.btn-prev:disabled img,
+.btn-next:disabled img {
+  opacity: 0.3;     /* deixa a seta transparente */
+  cursor: default;  /* remove a mãozinha */
+  transform: none;  /* cancela o efeito de hover */
+}
